@@ -18,3 +18,8 @@ Machine Learning Roadmap
 ### Day 1
 Deep learning Specialization Course 1: 
 Neural Networks
+
+Basic introduction to neural network. As the computational power and size of data grew, it helped the growth of neural network. Traditional ML techniques efficiency usually stopped getting better after certain size of dataset.
+
+There was a question, **does neural network needs many features**?  
+=> More features works better if the features are not engineered from existing. Or else, neural network can itself find the hidden relation, we dont need to explicitly feature engineer like for traditional approaches.
