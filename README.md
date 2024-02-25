@@ -1,8 +1,6 @@
 # 60DaysOfML
 
-For the last couple of months I have been reading about materials in Machine learning. While learning, I realized I was going back to old contents that I have already learnt and understood time and again to revise. While, it was good way, I think I will benefit more if I just write what I understood on the day I learn anything on ML so when I revise, I can recall first what I had understood and look for anything I missed.
-
-Any new topic or old topic that I revise any day for the next 60 days, I will document it in this repo. 
+For the last couple of months I have been reading about materials in Machine learning. While learning, I found it hard to track my progress and notes in one place. So, to be consistent and make my work public, any new topic or old topic that I revise any day for the next 60 days, I will document it in this repo. 
 
 For this project, I am following Deep Learning Specialization Course on Coursera by Andrew Ng.
 Any code related to this project will be under code folder.
@@ -23,3 +21,9 @@ Basic introduction to neural network. As the computational power and size of dat
 
 There was a question, **does neural network needs many features**?  
 => More features works better if the features are not engineered from existing. Or else, neural network can itself find the hidden relation, we dont need to explicitly feature engineer like for traditional approaches.
+
+## Day 2
+In the course, I learned about gradient descent and back propagation again. One topic that made me confused during my first course was why gradient is the direction of steepest ascent. We use this concept in gradient descent and it works, but I wasn't able to find a explanation. [This video](https://www.youtube.com/watch?v=TEB2z7ZlRAw&pp=ygUgZ3JhZGllbnQgZGVzY2VudCBzdGVlcGVzdCBhc2NlbnQ%3D) from Khan academy made the concept clear for me. I am revising the topic today.   
+  
+Wrote this blog on the topic today in substack.  
+[Why is gradient the direction of steepest ascent?](https://pandysudhan.substack.com/p/why-is-gradient-vector-the-direction)
