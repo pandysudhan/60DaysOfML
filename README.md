@@ -30,4 +30,15 @@ Wrote this blog on the topic today in substack.
 
 
 ## Day 3
-I implemented single neuron logistic regression from scratch. It was Course 1 Week 2 programming assignment. The code is available here
+1. I implemented single neuron logistic regression from scratch. It was Course 1 Week 2 programming assignment. The code is available [here](https://github.com/pandysudhan/60DaysOfML/blob/main/code/Logistic_Regression_with_a_Neural_Network_mindset.ipynb)
+
+2. Learned about vectorization with numpy.
+    - numpy.dot()
+    - numpy.multiply()
+    - numpy broadcasting
+
+Need to look: np.matmul() vs np.dot(), both do similar matrix multiplication that I know as of yet. But there is some difference in higher dimension.
+
+
+
+
