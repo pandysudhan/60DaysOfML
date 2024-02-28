@@ -9,7 +9,7 @@ Machine Learning Roadmap
 |Resources|Status|
 |----|---|
 |https://www.coursera.org/specializations/machine-learning-introduction| ✔|
-|https://www.coursera.org/specializations/deep-learning| ✔|
+|https://www.coursera.org/specializations/deep-learning| 🔄 |
 
 ---
 
@@ -27,3 +27,7 @@ In the course, I learned about gradient descent and back propagation again. One 
   
 Wrote this blog on the topic today in substack.  
 [Why is gradient the direction of steepest ascent?](https://pandysudhan.substack.com/p/why-is-gradient-vector-the-direction)
+
+
+## Day 3
+I implemented single neuron logistic regression from scratch. It was Course 1 Week 2 programming assignment. The code is available here
