@@ -39,6 +39,13 @@ Wrote this blog on the topic today in substack.
 
 Need to look: np.matmul() vs np.dot(), both do similar matrix multiplication that I know as of yet. But there is some difference in higher dimension.
 
+## Day 4
+Today was very interesting. I implemented the one hidden layer from scratch with complete forward and backward propagation.
+The code is available [here](https://github.com/pandysudhan/60DaysOfML/blob/main/code/Planar_data_classification_with_one_hidden_layer.ipynb)  
+
+**Gradient descent** has become one of my favorite topics now.
+
+<img width="723" alt="Screenshot 2024-03-02 at 9 43 53 PM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/92781458-e5e2-46eb-9797-5c1d1d22a342">
 
 
 
