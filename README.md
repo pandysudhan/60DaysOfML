@@ -48,4 +48,15 @@ The code is available [here](https://github.com/pandysudhan/60DaysOfML/blob/main
 <img width="723" alt="Screenshot 2024-03-02 at 9 43 53 PM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/92781458-e5e2-46eb-9797-5c1d1d22a342">
 
 
+## Day 5
+The neural network is getting interesting day by day. Today, I implemented a 'L' layered neural network as the final submission for the first course in Deep learning specialization.
+
+The flow of the functions for forward and back propagation, I used in the implementation is:  
+
+[Implemetation code](https://github.com/pandysudhan/60DaysOfML/blob/main/code/Logistic_Regression_with_a_Neural_Network_mindset.ipynb)  
+[Application](https://github.com/pandysudhan/60DaysOfML/blob/main/code/Deep%20Neural%20Network%20-%20Application.ipynb)  
+
+<img width="528" alt="Screenshot 2024-03-08 at 10 15 37 AM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/3d01b13f-893a-41ce-8b6c-abbaea2de344">
+
+
 
