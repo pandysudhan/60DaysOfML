@@ -58,5 +58,7 @@ The flow of the functions for forward and back propagation, I used in the implem
 
 <img width="528" alt="Screenshot 2024-03-08 at 10 15 37 AM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/3d01b13f-893a-41ce-8b6c-abbaea2de344">
 
+<img width="542" alt="Screenshot 2024-03-08 at 1 33 33 PM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/bce6ae3e-3bbb-4a15-9489-c5f35d77c982">
+
 
 
