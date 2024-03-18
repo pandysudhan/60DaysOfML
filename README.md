@@ -61,4 +61,29 @@ The flow of the functions for forward and back propagation, I used in the implem
 <img width="542" alt="Screenshot 2024-03-08 at 1 33 33 PM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/bce6ae3e-3bbb-4a15-9489-c5f35d77c982">
 
 
+## Day 6
+Convolutional Neural Network
+I started the new course in the deep learning specialization: CNN.
+Concept:
+Take a 2D/ 3D array (filter) and convolve it around the given dataset. Usually the dataset will be represented as 2d/ 3d array like for images.
+A particular filter is used for particular feature extraction from given large feature set, and when multiple filters is used, we get data for specific feature at specific part of the original dataset. For example the presence/absence of a white line in a image.  
+
+**Convolve**: The operation is simply a slice of original dataset of same size as filter and taken element wise product i.e the weighted values. This is repeated to all the remaining data, using same filter.
+
+These filters need not be defined before hand, and it is what the model is supposed to learn.
+
+CNN solves a major problem for large features dataset like images, the need to have many parameters. Using CNN, same set of parameters could be reused at multiple places. For example, as above, the filter used for presence of white line is used at all the parts of image, and thus we have the positions of all the white lines in an image.
+
+## Day 7
+
+When we perform convolution in a dataset, the output activation array size is smaller than input. The reason being, convolution will stop when the remaining data is smaller than the filter size. Like, if filter size is 3x3, and we are at 2nd last column, the operation cannot be perfomed and hence the last two operations (slice starting at last two columns) are skipped. 
+To solve this, use a simple padding around the dataset, so that, when the columns are skipped, the padding would be skipped rather than the actual important values.
+
+
+Output activation sizes after a convolution layer:  
+
+P = padding,  
+s = stride,  
+f = filter size
+<img width="605" alt="Screenshot 2024-03-17 at 10 38 02 PM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/ccb66114-a64e-4a0f-9ea5-a6cf40709cba">
 
