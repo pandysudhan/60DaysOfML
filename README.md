@@ -87,5 +87,9 @@ s = stride,
 f = filter size  
 <img width="605" alt="Screenshot 2024-03-17 at 10 38 02 PM" src="https://github.com/pandysudhan/60DaysOfML/assets/83126616/ccb66114-a64e-4a0f-9ea5-a6cf40709cba">
 
+Pooling: 
+Usually required to decrease the dimension of the dataset/activations. Max/ avg pooling is done, so that rather than the exact location of a feature, a large area of where the occurence of that feature is likely, is taken as the activations. This way if the feature is translated just a little, it will have similar result. So, for identifying a left ear for a animal, as long as it is in the upper left area of a straight face, we will have a good result, rather than requiring exact position.
+
+
 I implemented the forward propagation of CNN model(Week 1 Lab). The code can be found [here](https://github.com/pandysudhan/60DaysOfML/blob/main/code/Convolution_model_Step_by_Step_v1.ipynb).   
 
